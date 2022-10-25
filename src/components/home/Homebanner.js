@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Form from "./Form";
 
 const Homebanner = (props) => {
     const [color, setColor] = useState("Red");
@@ -12,6 +13,7 @@ const Homebanner = (props) => {
             <h4>{props.json.name} {props.json.age}</h4>
             <h1>{color}</h1>
             <button onClick={newColor}>Change Me</button>
+            <Form/>
         </div>
     );
 };
