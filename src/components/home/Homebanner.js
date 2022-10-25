@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Form from "./Form";
+import Apiuseeffect from "./Apiuseeffect";
 
 const Homebanner = (props) => {
     const [color, setColor] = useState("Red");
@@ -14,6 +15,7 @@ const Homebanner = (props) => {
             <h1>{color}</h1>
             <button onClick={newColor}>Change Me</button>
             <Form/>
+            <Apiuseeffect/>
         </div>
     );
 };
