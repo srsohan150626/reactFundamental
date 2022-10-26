@@ -1,10 +1,11 @@
 import React from 'react';
-import Homepage from "./pages/Homepage";
+import Index from "./pages/Index";
 
 const App = () => {
     return (
         <div>
-          <Homepage/>
+          {/*<Homepage/>*/}
+            <Index/>
         </div>
     );
 };

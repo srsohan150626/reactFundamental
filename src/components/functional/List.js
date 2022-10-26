@@ -20,6 +20,7 @@ const List = () => {
     }
     const todoList = todo.map((list, i) => {
         return (<tr>
+                <td>{i}</td>
                 <td>{list.userId}</td>
                 <td>{list.id}</td>
                 <td>{list.title}</td>
@@ -41,6 +42,7 @@ const List = () => {
             <table className="table table-striped table-bordered table-active">
                 <thead>
                 <tr>
+                    <th>SL.</th>
                     <th>userId</th>
                     <th>id</th>
                     <th>title</th>
